@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo Digital</title>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header>
+    <h1>Catálogo Digital de Productos</h1>
+  </header>
+
+  <main>
+    <section class="galeria">
+
+      <!-- Producto 1 -->
+      <div class="producto">
+        <img src="imagenes/CasaHongo.png" alt="Casa Hongo" class="miniatura">
+        <h2>Casa Hongo</h2>
+        <model-viewer 
+          src="modelos/CasaHongo.glb" 
+          ar 
+          camera-controls 
+          environment-image="neutral" 
+          alt="Modelo 3D de una Casa Hongo">
+        </model-viewer>
+      </div>
+
+      <!-- Producto 2 -->
+      <div class="producto">
+        <img src="imagenes/PandaAlien.png" alt="Panda Alien" class="miniatura">
+        <h2>Panda Alien</h2>
+        <model-viewer 
+          src="modelos/PandaAlien.glb" 
+          ar 
+          camera-controls 
+          environment-image="neutral" 
+          alt="Modelo 3D de un Panda Abducido por Alien">
+        </model-viewer>
+      </div>
+
+<!-- Producto 3 -->
+      <div class="producto">
+        <img src="imagenes/PandaEsqueleto.png" alt="Panda Esqueleto" class="miniatura">
+        <h2>Panda Esqueleto</h2>
+        <model-viewer 
+          src="modelos/PandaEsqueleto.glb" 
+          ar 
+          camera-controls 
+          environment-image="neutral" 
+          alt="Modelo 3D del Esqueleto de un Panda">
+        </model-viewer>
+      </div>
+
+<!-- Producto 4 -->
+      <div class="producto">
+        <img src="imagenes/PandaPeluche.png" alt="Panda Peluche" class="miniatura">
+        <h2>Panda Peluche</h2>
+        <model-viewer 
+          src="modelos/PandaPeluche.glb" 
+          ar 
+          camera-controls 
+          environment-image="neutral" 
+          alt="Modelo 3D de un peluche de Panda">
+        </model-viewer>
+      </div>
+
+<!-- Producto 4 -->
+      <div class="producto">
+        <img src="imagenes/PandaSW.png" alt="Panda SW" class="miniatura">
+        <h2>Panda SW</h2>
+        <model-viewer 
+          src="modelos/PandaSW.glb" 
+          ar 
+          camera-controls 
+          environment-image="neutral" 
+          alt="Modelo 3D de Panda con sables de luz">
+        </model-viewer>
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>Creado por [MikeGlobin].</p>
+  </footer>
+</body>
+</html>
